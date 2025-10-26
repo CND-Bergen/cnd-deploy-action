@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Print
         run: |
-          echo '${{ env.BODY }}'
+          echo "$BODY"
         env:
           BODY: ${{ github.event.issue.body }}
