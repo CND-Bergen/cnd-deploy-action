@@ -1,0 +1,14 @@
+name: no problem
+on: issue_comment
+
+jobs:
+  echo-body:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Print
+        run: |
+          echo '${{ env.BODY }}'
+        env:
+          BODY: ${{ github.event.issue.body }}
