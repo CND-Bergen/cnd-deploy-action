@@ -1,0 +1,6 @@
+name: 'Hello World Action'
+description: 'A basic GitHub action that prints Hello World'
+author: 'CND-Bergen'
+runs:
+  using: 'node20'
+  main: 'index.js'
