@@ -1,0 +1,18 @@
+{
+  "name": "cnd-deploy-action",
+  "version": "1.0.0",
+  "description": "A basic GitHub action that prints Hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "github",
+    "action"
+  ],
+  "author": "CND-Bergen",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  }
+}
