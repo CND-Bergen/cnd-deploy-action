@@ -22,6 +22,17 @@ jobs:
 
 This action is built with Node.js and uses the `@actions/core` library.
 
+### Building the action
+
+Before committing changes, you need to build the action to bundle it with its dependencies:
+
+```bash
+npm install
+npm run build
+```
+
+This will create a `dist/index.js` file that contains the bundled code. **Important:** The `dist/` folder must be committed to the repository for the action to work properly.
+
 ### Running locally
 
 ```bash
