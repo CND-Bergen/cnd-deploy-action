@@ -31,7 +31,7 @@ npm install
 npm run build
 ```
 
-This will create a `dist/index.js` file that contains the bundled code.
+This will create a `dist/index.js` file that contains the bundled code. **Important:** The `dist/` folder must be committed to the repository for the action to work properly.
 
 ### Running locally
 
